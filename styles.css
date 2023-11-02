@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -24,7 +25,7 @@ header nav ul li {
     display: inline;
 }
 
-header nav ul li a {
+header nav ul li a:link, a:hover, a:active, a:visited {
     text-decoration: none;
     color: #fff;
 }
@@ -40,22 +41,31 @@ header nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     background-color: #8b008b;
     border-radius: 50%;
 }
 
-.content {
+.content-container {
+    background-color: #8b008b;
+    width: 100%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    width: 80%;
+    margin-bottom: 3%;
 }
 
-.formulario {
-    background-color: #8b008b;
-    border-radius: 1%;
-    width: 60%;
-    margin: 0 auto;
+.content {
+    margin: 8%;
+    color: #fff;
+}
+
+.form-container {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.form {
+    width: 100%;
+    height: 760px;
 }
 
 .footer {
@@ -64,6 +74,12 @@ header nav ul li a {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    padding: 1% 0;
+}
+
+.footer a:link, a:hover, a:active, a:visited {
+    color: #fff;
+    text-decoration: none;
 }
 
 h1 {
@@ -97,17 +113,5 @@ svg {
 
     .logo-container {
         padding: 5%;
-    }
-
-    .content {
-        width: 90%;
-    }
-
-    .formulario {
-        width: 90%;
-    }
-
-    .footer {
-        width: 90%;
     }
 }
