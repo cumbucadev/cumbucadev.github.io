@@ -1,40 +1,74 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
 		<title>Cumbuca Dev</title>
-		<style>
-			body{
-				background-color: #9CF4C8;
-			}
-		</style>
 	</head>
 
-	<body id="content">
+	<body>
 		<header>
-		<center>
-        <h1>Cumbuca Dev</h1>
-        <h3>Nossa missão é promover a diversidade e a igualdade na área de TI, 
-			empoderando grupos minoritários através da educação.</h3>
-			<img src="imagens/cumbuquer.png" alt="Cumbuca" width=400 height=400>
-		</center>
+			<nav>
+				<ul>
+					<li>
+						<a href="#sobre">Sobre</a>
+					</li>
+					<li>
+						<a href="#sabermais">Quero saber mais</a>
+					</li>
+					<li>
+						<a href="#contact">Contato</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 
-		<article>
-			<center>
-			<h1>Estamos em Construção...</h1>
-			<br>
-			<h4>Bora entrar nessa cumbuca?</h4>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiEwo-u8-H4JANFPPddMAb0VHh-TABYNBvrqehR1tMPp10uA/viewform?embedded=true" width="640" height="1428" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-			</center>
-		</article>
+		<div class="container">
+			<div class="logo-container">
+				<img src="imagens/logo-light-transparent.svg">
+			</div>
 
-		<footer>
-			<center>
-			<h2>Contato</h2>
-			</center>
-		</footer>
+			<div class="content-container">
+				<div class="content" id="sobre">
+					<h2>
+						Nossa organização se dedica apaixonadamente a promover a diversidade e a
+						igualdade na área de Tecnologia da Informação (TI). Através de programas
+						educacionais abrangentes, capacitamos e apoiamos ativamente grupos
+						minoritários,
+						visando não apenas sua inclusão, mas também o desenvolvimento de líderes
+						em
+						potencial dentro do setor.
+					</h2>
+
+					<h2>
+						Acreditamos na importância de colaboração, transparência
+						e igualdade de oportunidades, e estamos comprometidos em promover um
+						ambiente de
+						TI justo e inclusivo, onde o compartilhamento de conhecimento e recursos é
+						incentivado e valorizado, tudo isso através de uma abordagem de código
+						aberto
+					</h2>
+				</div>
+			</div>
+
+			<div class="form-container" id="sabermais">
+				<iframe class="form"
+					src="https://docs.google.com/forms/d/e/1FAIpQLSc_PRVNTDaqI2b3A-h_x-9rs3C-wtzs0ITINpcWBQBiVDNb5w/viewform?embedded=true"
+					frameborder="0" marginheight="0" marginwidth="0">Formulário</iframe>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+
+		<div class="footer" id="contact">
+			<div class="footer-content">
+				<p>Contato:
+					<a href="mailto:cumbucadev@gmail.com" title>cumbucadev@gmail.com</a>
+				</p>
+			</div>
+		</div>
+
 	</body>
 </html>
